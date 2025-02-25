@@ -1,6 +1,6 @@
  body {
-	font-family: Ariel, sans-serif;
-	{	
+	font-family: Ariel, sans-serif; font-color: red;
+ }	
 
  /* Top Navigation Styling */ 
  .topnav { 
@@ -16,9 +16,9 @@
 	}	
 
  .nav-links li {
-	margin: 0 15px; 
+	margin: 0 45px; 
 	
- }
+}
 
  @media (max-width: 760px) {
  .nav-links {
@@ -33,5 +33,5 @@
  .nav-links li {
 	 text-align: center; 
  }
-	 
+ 
  }
