@@ -1,27 +1,27 @@
- body (
+ body {
 	font-family: Ariel, sans-serif;
-)	
+	{	
 
  /* Top Navigation Styling */ 
- .topnav ( 
+ .topnav { 
  /* 	   Justify-content: space-between;*/
 	     align-items: center; 
 		 padding: 15px; 
 		 
 	
-)
- .nav-links (
+ }
+ .nav-links {
 	list-style: none;
 	display: flex;
-)	
+	}	
 
- .nav-links li (
+ .nav-links li {
 	margin: 0 15px; 
 	
-)
+ }
 
- @media (max-width: 760px) (
- .nav-links (
+ @media (max-width: 760px) {
+ .nav-links {
 		  flex-direction: column;
 		  position: absolute; 
 		  top: 60px;
@@ -29,7 +29,7 @@
 		  width: 100%;
 		  padding: 10px 0; 
 	
- )	  
- .nav-links li (
+ }  
+ .nav-links li {
 	 text-align: center; 
- )
+ }
